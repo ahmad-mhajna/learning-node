@@ -13,7 +13,7 @@ filesList.forEach((file) => {
   fs.appendFileSync(`${__dirname}/files-list.txt`, `${file} `);
 });
 
+fs.mkdirSync(`${__dirname}/testing`);
 setTimeout(() => {
   fs.rmdirSync(`${__dirname}/testing`);
 }, 5000);
-fs.mkdirSync(`${__dirname}/testing`);
