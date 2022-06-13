@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "got": "^12.1.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^6.3.7",
+    "request": "^2.88.2",
+    "uniqid": "^5.4.0",
+    "validator": "^13.7.0",
+    "yarg": "^1.0.8"
+  }
+}
