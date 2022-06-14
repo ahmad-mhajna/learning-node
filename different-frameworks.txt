@@ -1,0 +1,16 @@
+What is Koa js used for?
+Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. By leveraging async functions, Koa allows you to ditch callbacks and greatly increase error-handling.
+
+
+
+what are the pros of koa ? 
+Advantages. Koa improves interoperability, robustness, and makes writing middleware much more enjoyable. Has a large number of helpful methods but maintains a small footprint, as no middleware are bundled. Koa is very lightweight, with just 550 lines of code
+
+
+what are the cons of koa ?
+Community is relatively small. Not compatible with express style middleware. Koa uses generators which are not compatible with any other type of Node.
+
+
+
+what is the difference between koa and express?
+The key difference between Koa and Express is how they handle middleware. Express includes routing and templates in the application framework. Koa, on the other hand, requires modules for these features, therefore making it more modular or customizable.
